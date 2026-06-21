@@ -2,9 +2,6 @@
 
 One line per item.
 
-- [ ] Example: define ICP messaging draft
-- [ ] Example: draft outreach sequence
-- [ ] [inferred] Resolve repository identity drift between `basic-scaffolding` root files/package history and `skilland-agentic-homelab`.
 - [ ] [inferred] Write the active spec for the first microhito: Hermes Deep Research / Hermes Literacy.
 - [ ] [inferred] Create `00_inbox/hermes_sources.md` as the raw source map for Hermes research.
 - [ ] [inferred] Gather and rank official/community Hermes sources before installation work.

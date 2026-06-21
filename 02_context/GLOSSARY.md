@@ -2,7 +2,6 @@
 
 - Agentic Company OS: Long-term internal operating model where Skilland/Reboot can be run with resident AI employees across real business systems.
 - Agentes residentes: AI agents with role, mission, memory, tools, autonomy, outputs, and traceable work, not one-off prompt functions.
-- Basic Scaffolding: Existing harness/package pattern with inbox, harness, context, specs, outputs, scratch, and skills. Useful grammar, not HomeLab's main destination.
 - Codex: Resident technical operator working inside the repo and VPS to inspect, implement, test, document, and raise decisions.
 - Divi-DClick: Downstream client/product vertical that may receive safe, sober learnings from HomeLab but does not govern the lab.
 - Hermes: Central system HomeLab must research and understand deeply; expected to coordinate, route, interpret, and maintain agentic context, pending practical validation.

@@ -1,4 +1,4 @@
-# basic-scaffolding — Claude Code Instructions
+# Skilland Agentic HomeLab — Claude Code Instructions
 
 Read these files in order before starting any task:
 
@@ -14,3 +14,9 @@ Read these files in order before starting any task:
 - **Scratch/WIP**: `05_scratch/`
 - **Skills**: `shared/skills/` — load only when needed
 - **Agents**: `shared/agents/` — delegate via subagent definitions
+
+## HomeLab Mission
+
+- This repo is the internal Skilland/Reboot agentic lab on the real VPS.
+- Hermes Deep Research / Hermes Literacy is the next intended spec.
+- External or sensitive actions require explicit human approval.

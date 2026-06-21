@@ -7,11 +7,8 @@
 - Fact: The current working path is `/home/skilland/workspaces/skilland-agentic-homelab`.
   Source: environment context for this session
   Confidence: high
-- Fact: Root files still describe the workspace as `basic-scaffolding` and document an npm scaffold CLI package.
-  Source: `README.md`; `AGENTS.md`; `CLAUDE.md`; `01_harness/STACK.md`
-  Confidence: high
-- Fact: The existing active spec `03_specs/now/001_now.md` is about packaging the repo as an npm scaffold CLI and has all acceptance criteria marked complete.
-  Source: `03_specs/now/001_now.md`
+- Fact: Root instructions identify this repo as Skilland Agentic HomeLab.
+  Source: `README.md`; `AGENTS.md`; `CLAUDE.md`
   Confidence: high
 
 ## Strategic Context
@@ -78,15 +75,14 @@
 - Fact: `Skilland-ai/skilland-crm` is important but may be too risky or complex as the first real repo.
   Source: `00_inbox/01_homelab_foundation_manifesto_v2.md`
   Confidence: high
-- Fact: `basic-scaffolding` is useful as a grammar/pattern but should not become the main HomeLab value target.
-  Source: `00_inbox/01_homelab_foundation_manifesto_v2.md`; `00_inbox/01_homelab_operational_brief.md`
+- Fact: The active spec folder is intentionally clear of prior package work before creating the Hermes Deep Research spec.
+  Source: `03_specs/now/`
   Confidence: high
 
 ## Unknowns and Assumptions
 - Unknown: Authoritative Hermes source list, official docs, community patterns, and reference repos.
 - Unknown: Whether Hermes is already installed anywhere on the VPS.
 - Unknown: Actual available RAM/CPU/disk and whether the current VPS has bottlenecks.
-- Unknown: Current repo remote, package metadata status, and whether legacy `basic-scaffolding` files should be renamed or removed.
+- Unknown: Current repo remote and whether a Git repository should be initialized or connected.
 - Unknown: Exact first repo to operate after Hermes research.
 - Unknown: Exact approval checklist for high-risk infrastructure operations.
-- Assumption: The 2026-06-21 HomeLab inbox files and the user's current request supersede generic scaffold identity for the context layer.

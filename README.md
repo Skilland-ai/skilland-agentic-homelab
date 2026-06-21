@@ -1,27 +1,23 @@
-# basic-scaffolding
+# Skilland Agentic HomeLab
 
-Agentic Repo Harness v2 workspace.
+Internal, breakable HomeLab for Skilland/Reboot on the real VPS.
 
-## npm package
-
-This repo now includes an npm CLI package definition so it can be published as `create-basic-scaffolding`.
-
-### Usage
-
-- `npm create basic-scaffolding@latest my-workspace`
-- `npx create-basic-scaffolding@latest my-workspace`
-- `npx create-basic-scaffolding@1.0.0 my-workspace`
-- `npx create-basic-scaffolding@latest . --force`
-
-### Version behavior
-
-- The command runs the version you install or request explicitly.
-- If you publish a new version later, existing installs keep using their installed version until updated.
-- A generated workspace is a snapshot of the package version used at creation time. It does not auto-update when this repo changes.
+This repo turns the Skilland Agentic OS North Star into practical learning: Hermes as the first deep research target, Codex as resident technical operator, agents as future workers, and repos as operable factories.
 
 ## Start Here
 
-1. Drop all raw material into `00_inbox/`.
-2. Use `01_harness/TASKFLOW.md` to run Seed -> Distill -> Spec -> Ship -> QA.
-3. Keep one active spec in `03_specs/now/`.
-4. Put deliverables in `04_outputs/`.
+1. Read `01_harness/RULES.md`, `01_harness/STACK.md`, and `01_harness/TASKFLOW.md`.
+2. Use `02_context/` as the distilled project context.
+3. Work from one active spec in `03_specs/now/`.
+4. Write final deliverables to `04_outputs/`.
+5. Use `05_scratch/` for working reports and temporary notes.
+
+## Current Focus
+
+- Clean HomeLab identity and context.
+- Prepare the first active spec: Hermes Deep Research / Hermes Literacy.
+- Do not install Hermes, connect external channels, or design meta-harness before the research spec justifies it.
+
+## Operating Principle
+
+HomeLab is an internal YOLO lab: move fast, break recoverable things, document learning, and keep Raúl in command of external or sensitive actions.
