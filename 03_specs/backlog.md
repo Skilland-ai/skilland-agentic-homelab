@@ -2,7 +2,7 @@
 
 One line per item.
 
-- [ ] [inferred] Write the active spec for the first microhito: Hermes Deep Research / Hermes Literacy.
+- [x] [inferred] Write the active spec for the first microhito: Hermes Deep Research / Hermes Literacy.
 - [ ] [inferred] Create `00_inbox/hermes_sources.md` as the raw source map for Hermes research.
 - [ ] [inferred] Gather and rank official/community Hermes sources before installation work.
 - [ ] [inferred] Inspect the real VPS/runtime state and document Node, npm, Docker, filesystem, logs, and service paths.
