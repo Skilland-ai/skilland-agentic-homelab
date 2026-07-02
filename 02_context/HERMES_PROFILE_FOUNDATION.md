@@ -59,3 +59,12 @@ También recuerda que Hermes es el núcleo objetivo del HomeLab, Codex es operad
 ## Siguiente microhito recomendado
 
 `005_hermes_first_real_repo_readonly_operator`: elegir un repo real de bajo riesgo, pedir a Hermes una lectura read-only, producir una síntesis operativa y proponer el primer microhito útil sin conectar sistemas externos ni escribir producción.
+
+## Actualización 2026-07-02 — v1.1 estratégica
+
+- Se aplicó una iteración estratégica v1.1 de `SOUL.md`, `MEMORY.md` y `USER.md` del perfil `homelab`.
+- Orientación: más ambiciosa en visión y más sobria en permisos; Hermes queda formulado como capa operativa residente para convertir North Star en capacidades reales probadas dentro del VPS/repos.
+- Mejoras principales: North Star más explícita, producto antes que arquitectura, aprendizaje transferible, repos como fábricas/departamentos, libertad interna con control en cliente, y brainstorming/validación antes de prompts ejecutivos cuando la decisión es estratégica.
+- Checks finales: `SOUL.md` `3091 B`, `MEMORY.md` `1814 B`, `USER.md` `1182 B`; `prompt-size` muestra `memory: 2,148 B` y `user profile: 1,518 B`.
+- Tests de sesión nueva pasaron: identidad/North Star, decisión estratégica no validada, restricción ante WhatsApp/Gmail y Gateway no arrancado.
+- No se activaron sistemas externos, Gateway, canales, cron, browser, MCPs, webhooks ni cambios de config. No se tocaron `.env`, `auth.json`, tokens ni secretos.
