@@ -155,3 +155,53 @@ Resultado:
 ## Próxima acción
 
 Planificar `003_hermes_profile_memory_skill_lab`: `SOUL.md` HomeLab mínimo, memoria bajo aprobación, una skill pequeña derivada de un procedimiento real y QA de aislamiento local.
+
+## Actualización 004: identidad y memoria base de `homelab`
+
+Fecha: 2026-06-21
+
+Estado real verificado durante la spec `004_hermes_identity_memory_foundation`:
+
+- Perfil: `/home/skilland/.hermes/profiles/homelab`.
+- Versión: `Hermes Agent v0.17.0 (2026.6.19) · upstream 8a506ed3`.
+- Provider/modelo: `openai-codex` / `gpt-5.4`.
+- `Gateway: stopped` según `hermes --profile homelab profile show homelab`.
+- `Skills: 0` según `profile show`.
+- `SOUL.md` existe y ahora identifica a Hermes como Hermes HomeLab, no como asistente genérico.
+- `MEMORY.md` existe en `memories/MEMORY.md`.
+- `USER.md` existe en `memories/USER.md`.
+- `prompt-size` en verificación final:
+  - system prompt total: `18,783 B`
+  - skills index: `0 B`
+  - memory: `1,671 B`
+  - user profile: `1,290 B`
+- Tamaños de archivos:
+  - `SOUL.md`: `2163 B`
+  - `MEMORY.md`: `1337 B`
+  - `USER.md`: `956 B`
+
+Config real observada, sin modificarla en esta spec:
+
+```yaml
+approvals:
+  mode: false
+memory:
+  write_approval: false
+terminal:
+  cwd: /home/skilland/workspaces/skilland-agentic-homelab
+skills:
+  write_approval: false
+model:
+  base_url: https://chatgpt.com/backend-api/codex
+  provider: openai-codex
+  default: gpt-5.4
+```
+
+Nota:
+
+- Las secciones anteriores de este archivo reflejan el estado de instalación/smoke test inicial, donde `approvals.mode`, `memory.write_approval` y `skills.write_approval` estaban en modo conservador.
+- Después de la práctica guiada, Raúl cambió explícitamente el perfil a modo de baja fricción; esta spec solo documenta ese estado y no lo revierte.
+- `pgrep` muestra procesos `tui_gateway.entry` y `tui_gateway.slash_worker` asociados a sesiones CLI/TUI, pero no se arrancó el Gateway de mensajería; `profile show` mantiene `Gateway: stopped`.
+- Incidencia mitigada: durante QA apareció una skill auto-generada por Hermes (`harness-stage-audit`) debido a que `skills.write_approval: false`; se eliminó y el estado final vuelve a `Skills: 0`, sin `SKILL.md` y con `skills index: 0 B`.
+- No se tocaron `.env`, `auth.json`, tokens ni secretos.
+- No se conectaron sistemas externos, canales, webhooks ni MCPs externos.

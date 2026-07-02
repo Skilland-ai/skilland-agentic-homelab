@@ -1,0 +1,12 @@
+approvals:
+  mode: false
+memory:
+  write_approval: false
+terminal:
+  cwd: /home/skilland/workspaces/skilland-agentic-homelab
+skills:
+  write_approval: false
+model:
+  base_url: https://chatgpt.com/backend-api/codex
+  provider: openai-codex
+  default: gpt-5.4
