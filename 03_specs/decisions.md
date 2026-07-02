@@ -13,3 +13,4 @@ Short decision log.
 - 2026-06-21: Para el siguiente microhito de Hermes, usar Hermes como instructor paso a paso mientras Raul opera el CLI directamente; Codex queda como arquitecto/evaluador. Status: accepted
 - 2026-06-21: Ejecutar la fundación de identidad/memoria de Hermes con Codex como operador técnico; Hermes queda como sujeto de prueba tras editar `SOUL.md`, `MEMORY.md` y `USER.md`. Status: accepted
 - 2026-07-02: Cerrar 004 tras aplicar y verificar la v1.1 estratégica de identidad/memoria de Hermes `homelab`; `SOUL.md`, `MEMORY.md` y `USER.md` quedan como fundación operativa para pasar a repo real read-only. Status: accepted
+- 2026-07-02: Cerrar 005 como diagnóstico útil de `funnel-and-offer-academy`; la escritura transitoria en el repo objetivo se acepta como aprendizaje de la arquitectura provisional y refuerza la necesidad futura de un meta-harness multi-repo a nivel `/home/skilland/workspaces`. Status: accepted
